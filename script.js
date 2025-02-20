@@ -282,4 +282,5 @@ resetButton.addEventListener("click", function() {
     renderSavings();
     calculateBalance();
     settingsMenu.style.display = "none"; // Hide the settings menu after resetting
+    location.reload();
 });
